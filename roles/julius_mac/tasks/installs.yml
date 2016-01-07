@@ -20,9 +20,9 @@
     - brew
 
 - name: Install Emacs with options
-  homebrew: 
-   name: emacs 
-   state: latest 
+  homebrew:
+   name: emacs
+   state: latest
    install_options:
     - with-cocoa,
     - with-ctags
