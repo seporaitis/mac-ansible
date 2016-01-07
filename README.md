@@ -1,9 +1,10 @@
 Configuring Mac OS X with Ansible
 =================================
 
-I have two Macs and like to have (at least some of) the same apps on each.
-Since Ansible 1.6, the `homebrew` and `homebrew_cask` modules have been added,
-which has let me keep them in sync.
+Occasionally I have to rebuild my environment on a new Mac, or have a nice setup
+of two Macs - work and home, and keeping them consistent would be a pain. Come a
+ripoff of `adamchainz/mac-ansible` repo and I can have some important bits in
+sync.
 
 To run:
 
@@ -20,11 +21,3 @@ Getting Started
    [guide](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Homebrew-and-Python.md))
 3. `pip install ansible` (better than homebrew package as it's always latest)
 4. Then `ansible-playbook playbook.yml`
-
-
-Todo
-----
-
-* My terminal theme uses Ubuntu Mono; install ubuntu fonts from
-  [homebrew-fonts](https://github.com/caskroom/homebrew-fonts) when it is
-  stable
