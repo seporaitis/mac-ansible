@@ -1,7 +1,6 @@
 ---
 homebrew_taps:
   - caskroom/cask
-  - adamchainz/tap
 
 homebrew_package_removals:
   - python3  # Replaced with python34 for the time being
@@ -41,7 +40,6 @@ homebrew_packages:
   - percona-toolkit
   - pkg-config
   - pngcrush
-  - postgresql
   - pypy
   - python
   - python34
@@ -57,59 +55,27 @@ homebrew_packages:
   - watch
   - wget
   - xz
-  - youtube-dl
   - zsh-completions
 
 homebrew_cask_packages:
-  - alfred
-  - anki
-  - arq
-  - bettertouchtool
-  - bitbar
-  - calibre
-  - colloquy
-  - disk-inventory-x
-  - evernote
-  - firefox
   - flux
-  - google-chrome
-  - karabiner
-  - keyboard-maestro
-  - mactex
   - pgadmin3
-  - rescuetime
   - sequel-pro
-  - skim
   - skype
-  - soundcleod
-  - steam
-  - sublime-text
-  - techstoreclub-simple-comic
-  - texmaker
-  - utorrent
   - vagrant
   - virtualbox
-  - vlc
 
 pip_packages:
-  - 'git+https://github.com/adamchainz/ec2-ssh.git@master#egg=ec2-ssh'
-  - 'https://bitbucket.org/adamchainz/pygments-ipython-console/get/master.zip#egg=pygments-ipython-console'
   - csvkit
-  - dynamodb_utils
   - flake8
   - ipdb
   - ipython
-  - lifelogger
-  - numpy
-  - pandas
-  - pathlib
   - pep8
   - pygments
   - pylint
   - pythonpy
   - pyyaml
   - requests
-  - scipy
   - sh
   - six
   - tldr

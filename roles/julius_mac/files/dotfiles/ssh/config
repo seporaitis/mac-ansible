@@ -1,0 +1,9 @@
+Compression yes
+CompressionLevel 9
+ServerAliveInterval 20
+TCPKeepAlive yes
+ControlMaster auto
+ControlPath /tmp/%r@%h:%p
+ControlPersist yes
+StrictHostKeyChecking no
+

@@ -11,8 +11,3 @@
     - 'SHELL=/bin/bash'
     - 'HOME={{ ansible_env.HOME }}'
 
-- name: lifelogger download
-  cron:
-    minute: 0
-    name: 'lifelogger download'
-    job: '/usr/local/bin/lifelogger download && logger lifelogger downloaded >/dev/null 2>&1'

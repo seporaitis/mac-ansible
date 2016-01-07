@@ -5,7 +5,7 @@
     - ipython/profile_default
     - ipython/profile_default/startup
 
-- file: src={{ ansible_env.PWD }}/roles/adam_mac/files/dotfiles/{{ item }}
+- file: src={{ ansible_env.PWD }}/roles/julius_mac/files/dotfiles/{{ item }}
         path=~/.{{ item }}
         state=link
   with_items:
@@ -20,16 +20,3 @@
         dest=~/.innotop/innotop.conf
         force=no  # Only if it doesn't exist
 
-- name: zsh - git repo for prezto fork
-  git: repo=git@github.com:adamchainz/prezto.git
-       dest=~/.zprezto
-
-- name: zsh - link in prezto files
-  file: state=link src=~/.zprezto/runcoms/{{ item }} path=~/.{{ item }}
-  with_items:
-    - zlogin
-    - zlogout
-    - zprofile
-    - zshenv
-    - zshrc
-    - zpreztorc
