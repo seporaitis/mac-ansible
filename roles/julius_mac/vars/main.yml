@@ -65,6 +65,7 @@ homebrew_cask_packages:
   - pgadmin3
   - sequel-pro
   - skype
+  - slack
   - spotify
   - vagrant
   - virtualbox
