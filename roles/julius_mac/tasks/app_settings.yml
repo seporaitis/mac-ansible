@@ -1,3 +1,7 @@
+- name: Install Prelude
+  git: repo=git://github.com/bbatsov/prelude.git
+       dest=~/.emacs.d
+
 - name: Cowsay cowfile
   file: src={{ ansible_env.PWD }}/roles/julius_mac/files/two-heads.cow
         dest=/usr/local/Cellar/cowsay/3.03/share/cows/two-heads.cow

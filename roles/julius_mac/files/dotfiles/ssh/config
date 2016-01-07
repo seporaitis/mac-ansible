@@ -7,3 +7,7 @@ ControlPath /tmp/%r@%h:%p
 ControlPersist yes
 StrictHostKeyChecking no
 
+Host github.com
+    User seporaitis
+    IdentityFile ~/.ssh/seporaitis_github_com
+

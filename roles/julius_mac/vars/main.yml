@@ -42,7 +42,7 @@ homebrew_packages:
   - pngcrush
   - pypy
   - python
-  - python34
+#  - python34
   - readline
   - rtmpdump
   - ruby
@@ -52,12 +52,14 @@ homebrew_packages:
   - sloccount
   - sqlite
   - tree
+  - tig
   - watch
   - wget
   - xz
   - zsh-completions
 
 homebrew_cask_packages:
+  - emacs
   - flux
   - pgadmin3
   - sequel-pro
@@ -80,6 +82,7 @@ pip_packages:
   - six
   - tldr
   - virtualenvwrapper
+  - restructuredtext_lint
 
 npm_packages:
   - ember-cli

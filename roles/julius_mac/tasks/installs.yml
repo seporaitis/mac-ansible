@@ -19,6 +19,18 @@
   tags:
     - brew
 
+- name: Install Emacs with options
+  homebrew: 
+   name: emacs 
+   state: latest 
+   install_options:
+    - with-cocoa,
+    - with-ctags
+    - with-gnutls
+    - with-imagemagick
+    - with-librsvg
+    - with-mailutils
+
 - name: Install homebrew cask packages
   homebrew_cask: name={{ item }} state=installed
   with_items: homebrew_cask_packages
