@@ -62,7 +62,11 @@ homebrew_packages:
 homebrew_cask_packages:
   - emacs
   - flux
+  - google-chrome
+  - kindle
   - pgadmin3
+  - reggy
+  - rescuetime
   - sequel-pro
   - skype
   - slack
@@ -71,16 +75,20 @@ homebrew_cask_packages:
   - virtualbox
 
 pip_packages:
+  - autopep8
   - csvkit
   - flake8
+  - importmagic
   - ipdb
   - ipython
+  - jedi
   - pep8
   - pygments
   - pylint
   - pythonpy
   - pyyaml
   - requests
+  - rope
   - sh
   - six
   - tldr
@@ -88,7 +96,7 @@ pip_packages:
   - restructuredtext_lint
 
 npm_packages:
-  - ember-cli
+  - jsxhint
 
 gem_packages:
   - jekyll
