@@ -1,11 +1,13 @@
 ---
 homebrew_taps:
   - caskroom/cask
+  - YPlan/tap
 
 homebrew_package_removals:
   - python3  # Replaced with python34 for the time being
 
 homebrew_packages:
+  - arcanist
   - autoconf
   - autojump
   - automake
@@ -19,6 +21,7 @@ homebrew_packages:
   - freetype
   - fswatch
   - gdbm
+  - ghostscript
   - git
   - gpg
   - hub
@@ -73,27 +76,33 @@ homebrew_cask_packages:
   - spotify
   - vagrant
   - virtualbox
+  - vlc
 
 pip_packages:
   - autopep8
+  - awscli
+  - boto
+  - boto3
   - csvkit
   - flake8
   - importmagic
   - ipdb
   - ipython
   - jedi
+  - lifelogger
   - pep8
+  - pillow
   - pygments
   - pylint
   - pythonpy
   - pyyaml
   - requests
+  - restructuredtext_lint
   - rope
   - sh
   - six
   - tldr
   - virtualenvwrapper
-  - restructuredtext_lint
 
 npm_packages:
   - jsxhint
@@ -101,3 +110,4 @@ npm_packages:
 gem_packages:
   - jekyll
   - jekyll-tagging
+  - travis
