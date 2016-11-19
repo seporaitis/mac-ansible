@@ -14,6 +14,7 @@ homebrew_packages:
   - bazaar
   - brew-cask
   - coreutils
+  - codemod
   - cowsay
   - editorconfig
   - exiftool
@@ -23,9 +24,11 @@ homebrew_packages:
   - gdbm
   - ghostscript
   - git
+  - gitg
   - gpg
   - hub
   - imagemagick
+  - irssi
   - jpeg
   - jpegoptim
   - jq
@@ -37,16 +40,18 @@ homebrew_packages:
   - libyaml
   - md5sha1sum
   - memcached
+  - mercurial
   - ncdu
   - node
   - openssl
   - ossp-uuid
+  - pandoc
   - percona-toolkit
   - pkg-config
   - pngcrush
   - pypy
   - python
-#  - python34
+  - python3
   - readline
   - rtmpdump
   - ruby
@@ -63,10 +68,15 @@ homebrew_packages:
   - zsh-completions
 
 homebrew_cask_packages:
+  - adobe-creative-cloud
+  - adobe-photoshop-lightroom
   - emacs
   - flux
   - google-chrome
+  - google-drive
+  - iterm2
   - kindle
+  - mactex
   - pgadmin3
   - reggy
   - rescuetime
@@ -81,10 +91,12 @@ homebrew_cask_packages:
 pip_packages:
   - autopep8
   - awscli
+  - awslogs
   - boto
   - boto3
   - csvkit
   - flake8
+  - httpie
   - importmagic
   - ipdb
   - ipython
@@ -103,11 +115,17 @@ pip_packages:
   - six
   - tldr
   - virtualenvwrapper
+  - yamllint
 
 npm_packages:
   - jsxhint
 
 gem_packages:
+  - i18n
   - jekyll
+  - jekyll-gist
+  - jekyll-paginate
   - jekyll-tagging
+  - pygments.rb
+  - redcarpet
   - travis

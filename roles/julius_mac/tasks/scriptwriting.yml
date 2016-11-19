@@ -1,0 +1,5 @@
+- name: install screenplay.el
+  get_url:
+    url: http://www.nongnu.org/screenplay/files/screenplay.el
+    dest: "~/.emacs.d/personal/preload/screenplay.el"
+    mode: 0600
