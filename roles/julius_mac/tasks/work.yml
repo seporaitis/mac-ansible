@@ -1,12 +1,12 @@
 - name: Create work directories
-  file: path=~/work/{{ item }} state=directory
+  file: path=~/Work/{{ item }} state=directory
   with_items:
-    - code
-    - certificates
+    - Code
+    - Certificates
 
 - name: Download Amazon RDS Certificates
   get_url:
     # url: "https://s3.amazonaws.com/rds-downloads/rds-ca-2015-root.pem"
     url: "https://s3.amazonaws.com/rds-downloads/rds-combined-ca-bundle.pem"
-    dest: "~/work/certificates/rds-combined-ca-bundle.pem"
+    dest: "~/Work/Certificates/rds-combined-ca-bundle.pem"
     mode: 0600
