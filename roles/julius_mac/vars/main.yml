@@ -5,14 +5,14 @@ homebrew_taps:
 
 homebrew_package_removals:
   - python3  # Replaced with python34 for the time being
+  - spotify
+  - kindle
 
 homebrew_packages:
-  - arcanist
   - autoconf
   - autojump
   - automake
   - bazaar
-  - brew-cask
   - coreutils
   - codemod
   - cowsay
@@ -28,7 +28,6 @@ homebrew_packages:
   - gpg
   - hub
   - imagemagick
-  - irssi
   - jpeg
   - jpegoptim
   - jq
@@ -68,16 +67,11 @@ homebrew_packages:
   - zsh-completions
 
 homebrew_cask_packages:
-  - adobe-creative-cloud
-  - adobe-photoshop-lightroom
   - emacs
   - flux
   - google-chrome
   - google-drive
   - iterm2
-  - kindle
-  - mactex
-  - pgadmin3
   - reggy
   - rescuetime
   - sequel-pro
