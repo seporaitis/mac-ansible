@@ -13,6 +13,8 @@ homebrew_packages:
   - coreutils
   - codemod
   - cowsay
+  - docker
+  - docker-compose
   - editorconfig
   - exiftool
   - ffmpeg
@@ -23,6 +25,7 @@ homebrew_packages:
   - git
   - gitg
   - gpg
+  - heroku
   - hub
   - imagemagick
   - jpeg
@@ -30,6 +33,7 @@ homebrew_packages:
   - jq
   - lesspipe
   - libevent
+  - libffi
   - libmemcached
   - libpng
   - libtool
@@ -39,16 +43,20 @@ homebrew_packages:
   - mercurial
   - ncdu
   - node
+  - nvm
   - openssl
   - ossp-uuid
   - pandoc
   - percona-toolkit
   - pkg-config
   - pngcrush
+  - postgres
+  - pyenv
   - pypy
   - python
   - python3
   - readline
+  - redis
   - rtmpdump
   - ruby
   - ruby-build
@@ -60,6 +68,7 @@ homebrew_packages:
   - tig
   - watch
   - wget
+  - xhyve
   - xz
   - zsh-completions
 
@@ -69,6 +78,7 @@ homebrew_cask_packages:
   - google-chrome
   - google-drive
   - iterm2
+  - psequel
   - reggy
   - rescuetime
   - sequel-pro
@@ -110,6 +120,8 @@ pip_packages:
 
 npm_packages:
   - jsxhint
+  - gulp
+  - bower
 
 gem_packages:
   - i18n
