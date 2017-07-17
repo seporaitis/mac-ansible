@@ -16,4 +16,4 @@
   args:
     creates: "~/.pyenv/versions/{{ item }}/bin/python"
   with_items:
-    - '2.7.10'
+    - '2.7.13'
