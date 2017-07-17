@@ -1,6 +1,6 @@
 [user]
     name = Julius Seporaitis
-    email = julius.seporaitis@growthstreet.co.uk
+    email = julius@seporaitis.net
 
 [core]
     excludesfile = ~/.gitignore_global
