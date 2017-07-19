@@ -78,6 +78,7 @@ homebrew_cask_packages:
   - google-chrome
 #  - google-drive
   - iterm2
+  - java
   - reggy
   - rescuetime
   - sequel-pro
