@@ -75,16 +75,13 @@ homebrew_packages:
 homebrew_cask_packages:
   - emacs
   - flux
-#  - google-chrome
+  - google-chrome
 #  - google-drive
-#  - iterm2
-#  - psequel
+  - iterm2
   - reggy
   - rescuetime
-#  - sequel-pro
-#  - skype
-#  - slack
-#  - spotify
+  - sequel-pro
+  - slack
   - vagrant
   - virtualbox
   - vlc
